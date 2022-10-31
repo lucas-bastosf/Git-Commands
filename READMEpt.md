@@ -40,6 +40,7 @@ _Uma lista dos comandos Git mais usados_
 | `git branch -a` | Lista todas as branches (local e remoto) |
 | `git branch [nome da branch]` | Cria uma nova branch |
 | `git branch -u [nome da branch]` | Define uma branch como 'upstream' da branch atual. |
+| `git branch -m [nome da branch]` | Renomeia o branch atual. |
 | `git branch -d [nome da branch]` | Deleta uma branch |
 | `git push origin --delete [nome da branch]` | Deleta uma branch remota |
 | `git checkout -b [nome da branch]` | Cria uma nova branch e muda para ela |
