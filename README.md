@@ -21,7 +21,7 @@ _Uma lista dos comandos Git mais usados_
 | `git status` | Checa o status |
 | `git add [nome-arquivo.txt]` | Adiciona um arquivo para área de stage |
 | `git add -A` | Adiciona todos os arquivos novos ou modificados para a área de stage |
-| `git add -p [nome-arquivo.txt]` | Adiciona uma parte (patch) do arquivo especificado para a área de stage |
+| `git add -p [nome-arquivo.txt]` | Adiciona uma parte (patch) do arquivo especificado para a área de stage (y,n,s) |
 | `git commit -m "[Mensagem de Commit]"` | Comita as alterações |
 | `git commit --amend "[Mensagem de Commit]"` | Re-escreve a mensagem do commit mais recente |
 | `git rm -r [nome-arquivo.txt]` | Remove um arquivo (ou pasta) |
