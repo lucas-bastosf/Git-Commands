@@ -25,6 +25,8 @@ _Uma lista dos comandos Git mais usados_
 | `git commit -m "[Mensagem de Commit]"` | Comita as alterações |
 | `git commit --amend "[Mensagem de Commit]"` | Re-escreve a mensagem do commit mais recente |
 | `git rm -r [nome-arquivo.txt]` | Remove um arquivo (ou pasta) |
+| `git reset --soft HEAD~1` | Desfaz o último 1 commit mais recente, mantendo as alterações feitas |
+| `git reset --hard HEAD~1` | Desfaz o último 1 commit mais recente e suas alterações |
 
 
 ### Branching & Merging
@@ -48,7 +50,6 @@ _Uma lista dos comandos Git mais usados_
 | `git merge [source branch] [branch alvo]` | Faz um merge de uma branch em outra branch |
 | `git stash` | Tirar o estado sujo do seu diretório de trabalho |
 | `git stash clear` | Remove todas as entradas 'stash' |
-| `git reset --hard HEAD` | Desfaz todas as alterações atuais e restaura o commit mais recente |
 
 ### Sharing & Updating Projects
 
